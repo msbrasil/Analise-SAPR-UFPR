@@ -5,12 +5,12 @@
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive_BI-3F4F75?logo=plotly&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/Econometrics-OLS_%7C_CAPM-1E3A8A)
 ![Banco Central](https://img.shields.io/badge/API-BCB_SGS_(Selic_%2F_IPCA)-006400)
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=msbrasil/Analise-SAPR-UFPR&branch=main&mainModule=app.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sanepar-capm-jensen.streamlit.app/)
 
 > **Case de Portfólio em Data Analytics & BI Financeiro** estruturado com pipeline ETL automatizado, camada dimensional pronta para BI, notebook executivo de storytelling e dashboard interativo em Streamlit.
 
 ### 🚀 Acesso Rápido ao Dashboard Interativo
-- **Deploy / Publicação em 1 clique (Streamlit Community Cloud):** [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=msbrasil/Analise-SAPR-UFPR&branch=main&mainModule=app.py)
+- **Dashboard Online (Streamlit Community Cloud):** [sanepar-capm-jensen.streamlit.app](https://sanepar-capm-jensen.streamlit.app/) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sanepar-capm-jensen.streamlit.app/)
 - **Execução local:** `streamlit run app.py`
 - **Notebook completo de storytelling:** [Análise.ipynb](Análise.ipynb)
 
@@ -36,7 +36,7 @@ This project is an end-to-end **Financial Data Analytics & BI solution** analyzi
 
 - **Data Engineering & BI Modeling:** Automated Python ETL (`src/etl.py`) extracting market data via `yfinance` and official macro time series via the **Central Bank of Brazil SGS API**, persisting clean dimensional tables (`dim_ativos`, `fato_precos_mensais`, `fato_retornos_mensais`, `fato_macro_mensal`, `mart_kpis_capm`, `mart_rolling_beta`).
 - **Econometric Rigor & Risk Analytics:** OLS CAPM estimation, Jensen's Alpha, variance decomposition ($R^2$ vs. $1 - R^2$), liquidity/IPO data quality governance (`CASN4` exclusion; no artificial backward-fill prior to `AMBP3`/`ORVR3` IPOs), Sharpe, Sortino, Max Drawdown, Rolling Beta, and Markowitz Efficient Frontier optimization.
-- **Interactive Delivery:** A 5-tab **Streamlit + Plotly Executive Dashboard** (`app.py`) with dynamic timeframe filters, risk-free rate controls, and a live portfolio diversification simulator, alongside a fully executed storytelling notebook (`Análise.ipynb`).
+- **Interactive Delivery:** A 5-tab **Streamlit + Plotly Executive Dashboard** ([Live App](https://sanepar-capm-jensen.streamlit.app/) | `app.py`) with dynamic timeframe filters, risk-free rate controls, and a live portfolio diversification simulator, alongside a fully executed storytelling notebook (`Análise.ipynb`).
 
 ---
 
