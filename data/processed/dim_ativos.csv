@@ -1,0 +1,10 @@
+codigo,ticker_yf,empresa,nome_completo,subsetor,tipo_controle,papel_analise,observacao,cor
+SAPR4,SAPR4.SA,Sanepar,Companhia de Saneamento do Paraná (PN),Saneamento Básico,Estatal (PR),Protagonista,Ação preferencial da Sanepar; alta liquidez e foco principal do estudo.,#005EB8
+SAPR11,SAPR11.SA,Sanepar,Companhia de Saneamento do Paraná (Unit),Saneamento Básico,Estatal (PR),Protagonista (Unit),Unit da Sanepar (1 ON + 4 PN); referência de liquidez institucional.,#00A3E0
+SBSP3,SBSP3.SA,Sabesp,Cia. de Saneamento Básico do Estado de São Paulo,Saneamento Básico,Privatizada (2024) / Mista,Peer Setorial,Maior companhia de saneamento da América Latina; privatizada em jul/2024.,#2CA02C
+CSMG3,CSMG3.SA,Copasa,Companhia de Saneamento de Minas Gerais,Saneamento Básico,Estatal (MG),Peer Setorial,Par estatal comparável direto em dinâmica tarifária e dividendos.,#FF7F0E
+CASN4,CASN4.SA,Casan,Companhia Catarinense de Águas e Saneamento (PN),Saneamento Básico,Estatal (SC),Peer Setorial (Baixa Liquidez),Baixíssima liquidez na B3 (pregões sem negócio podem achatar o Beta).,#9467BD
+AMBP3,AMBP3.SA,Ambipar,Ambipar Participações e Empreendimentos,Gestão Ambiental / Resíduos,Privado,Peer Ambiental,"IPO em jul/2020; perfil de crescimento, M&As e forte alavancagem/volatilidade.",#D62728
+ORVR3,ORVR3.SA,Orizon,Orizon Valorização de Resíduos,Gestão Ambiental / Resíduos,Privado,Peer Ambiental,"IPO em fev/2021; foco em aterros sanitários, biogás e créditos de carbono.",#8C564B
+IBOV,^BVSP,Ibovespa,Índice Bovespa (B3),Benchmark de Mercado,Índice,Benchmark,Carteira teórica representante do risco sistemático do mercado brasileiro.,#333F48
+BRENT,BZ=F,Petróleo Brent,Brent Crude Oil Futures,Macro / Commodity,Commodity Global,Fator de Cenário,Proxy global de choque de petróleo para teste empírico de sensibilidade.,#7F7F7F
